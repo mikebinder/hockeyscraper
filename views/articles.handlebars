@@ -1,0 +1,14 @@
+{{#each articles}}
+
+	<div class="input-group article-list">
+		<a href="{{this.link}}" target="_blank" class="form-control panel-title pull-left">{{this.title}}</a>
+	
+		<span class="input-group-btn article-list">
+			<form action="/savedarticles/{{this.id}}" method="POST">
+				<button type="submit" class="btn btn-primary">Save!</button>
+			</form>
+		
+	</div>
+	<br>
+
+{{/each}}

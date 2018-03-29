@@ -1,0 +1,42 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+  
+
+    .article-list {
+    	padding-left: 5px;
+    	padding-right: 5px;
+    }
+
+    .container {
+    	max-width: 85%
+    }
+
+    body {
+      background: url("/ice.jpg") 
+    }
+
+    #title {
+text-align: center;
+padding-bottom: 20px;
+color: black;
+font-family: 'Courier New', Courier, monospace;
+font-size: 70px;
+font-weight: bold;
+    }
+
+    #myNavbar {
+      
+      width: 100%;
+      margin: 0px;
+    }
+    
+    .container-fluid {
+      width: 100;
+    }
+
+    img {
+      height:10%;
+      width: auto;
+    }
+   
+    
+    
