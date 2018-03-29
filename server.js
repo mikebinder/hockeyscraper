@@ -33,7 +33,7 @@ app.use(express.static("views"));
 
 // Database configuration with mongoose
 
-mongoose.connect("mongodb://localhost/mikescraper");
+mongoose.connect("mongodb://heroku_blzwncs6:58jelv8ahcmv0iuinatigrmt2j@ds127899.mlab.com:27899/heroku_blzwncs6");
 var db = mongoose.connection;
 
 // Show any mongoose errors
